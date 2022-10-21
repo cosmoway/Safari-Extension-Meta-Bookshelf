@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F04254D290223CA00379BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04254C290223CA00379BB3 /* AppDelegate.swift */; };
+		6F04254F290223CA00379BB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04254E290223CA00379BB3 /* SceneDelegate.swift */; };
+		6F042552290223CA00379BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F042550290223CA00379BB3 /* LaunchScreen.storyboard */; };
+		6F042555290223CA00379BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F042553290223CA00379BB3 /* Main.storyboard */; };
+		6F04255E290223CA00379BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04255D290223CA00379BB3 /* AppDelegate.swift */; };
+		6F042561290223CA00379BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F04255F290223CA00379BB3 /* Main.storyboard */; };
+		6F042568290223CA00379BB3 /* Bookshelf-Extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F042567290223CA00379BB3 /* Bookshelf-Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F042572290223CA00379BB3 /* Bookshelf-Extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6F042571290223CA00379BB3 /* Bookshelf-Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F042578290223CA00379BB3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F042533290223C900379BB3 /* Main.html */; };
+		6F042579290223CA00379BB3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F042533290223C900379BB3 /* Main.html */; };
+		6F04257A290223CA00379BB3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F042535290223C900379BB3 /* Icon.png */; };
+		6F04257B290223CA00379BB3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F042535290223C900379BB3 /* Icon.png */; };
+		6F04257C290223CA00379BB3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6F042536290223C900379BB3 /* Style.css */; };
+		6F04257D290223CA00379BB3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6F042536290223C900379BB3 /* Style.css */; };
+		6F04257E290223CA00379BB3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042537290223C900379BB3 /* Script.js */; };
+		6F04257F290223CA00379BB3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042537290223C900379BB3 /* Script.js */; };
+		6F042580290223CA00379BB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F042538290223C900379BB3 /* ViewController.swift */; };
+		6F042581290223CA00379BB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F042538290223C900379BB3 /* ViewController.swift */; };
+		6F042582290223CA00379BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F042539290223CA00379BB3 /* Assets.xcassets */; };
+		6F042583290223CA00379BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F042539290223CA00379BB3 /* Assets.xcassets */; };
+		6F042584290223CA00379BB3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04253B290223CA00379BB3 /* SafariWebExtensionHandler.swift */; };
+		6F042585290223CA00379BB3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F04253B290223CA00379BB3 /* SafariWebExtensionHandler.swift */; };
+		6F042586290223CA00379BB3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6F04253D290223CA00379BB3 /* _locales */; };
+		6F042587290223CA00379BB3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6F04253D290223CA00379BB3 /* _locales */; };
+		6F042588290223CA00379BB3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6F04253E290223CA00379BB3 /* images */; };
+		6F042589290223CA00379BB3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6F04253E290223CA00379BB3 /* images */; };
+		6F04258A290223CA00379BB3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F04253F290223CA00379BB3 /* manifest.json */; };
+		6F04258B290223CA00379BB3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F04253F290223CA00379BB3 /* manifest.json */; };
+		6F04258C290223CA00379BB3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042540290223CA00379BB3 /* background.js */; };
+		6F04258D290223CA00379BB3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042540290223CA00379BB3 /* background.js */; };
+		6F04258E290223CA00379BB3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042541290223CA00379BB3 /* content.js */; };
+		6F04258F290223CA00379BB3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042541290223CA00379BB3 /* content.js */; };
+		6F042590290223CA00379BB3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F042542290223CA00379BB3 /* popup.html */; };
+		6F042591290223CA00379BB3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F042542290223CA00379BB3 /* popup.html */; };
+		6F042592290223CA00379BB3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6F042543290223CA00379BB3 /* popup.css */; };
+		6F042593290223CA00379BB3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6F042543290223CA00379BB3 /* popup.css */; };
+		6F042594290223CA00379BB3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042544290223CA00379BB3 /* popup.js */; };
+		6F042595290223CA00379BB3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F042544290223CA00379BB3 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F042569290223CA00379BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F04252D290223C900379BB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F042566290223CA00379BB3;
+			remoteInfo = "Bookshelf-Extension Extension (iOS)";
+		};
+		6F042573290223CA00379BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F04252D290223C900379BB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F042570290223CA00379BB3;
+			remoteInfo = "Bookshelf-Extension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F04259B290223CA00379BB3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F042568290223CA00379BB3 /* Bookshelf-Extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0425A2290223CA00379BB3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F042572290223CA00379BB3 /* Bookshelf-Extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F042534290223C900379BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6F042535290223C900379BB3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6F042536290223C900379BB3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6F042537290223C900379BB3 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6F042538290223C900379BB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F042539290223CA00379BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F04253B290223CA00379BB3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6F04253D290223CA00379BB3 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		6F04253E290223CA00379BB3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6F04253F290223CA00379BB3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		6F042540290223CA00379BB3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		6F042541290223CA00379BB3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		6F042542290223CA00379BB3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		6F042543290223CA00379BB3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		6F042544290223CA00379BB3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		6F042549290223CA00379BB3 /* Bookshelf-Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bookshelf-Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F04254C290223CA00379BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F04254E290223CA00379BB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F042551290223CA00379BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F042554290223CA00379BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F042556290223CA00379BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F04255B290223CA00379BB3 /* Bookshelf-Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bookshelf-Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F04255D290223CA00379BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F042560290223CA00379BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F042562290223CA00379BB3 /* Bookshelf-Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bookshelf-Extension.entitlements"; sourceTree = "<group>"; };
+		6F042567290223CA00379BB3 /* Bookshelf-Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bookshelf-Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F04256C290223CA00379BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F042571290223CA00379BB3 /* Bookshelf-Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bookshelf-Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F042576290223CA00379BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F042577290223CA00379BB3 /* Bookshelf-Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bookshelf-Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F042546290223CA00379BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F042558290223CA00379BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F042564290223CA00379BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F04256E290223CA00379BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F04252C290223C900379BB3 = {
+			isa = PBXGroup;
+			children = (
+				6F042531290223C900379BB3 /* Shared (App) */,
+				6F04253A290223CA00379BB3 /* Shared (Extension) */,
+				6F04254B290223CA00379BB3 /* iOS (App) */,
+				6F04255C290223CA00379BB3 /* macOS (App) */,
+				6F04256B290223CA00379BB3 /* iOS (Extension) */,
+				6F042575290223CA00379BB3 /* macOS (Extension) */,
+				6F04254A290223CA00379BB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F042531290223C900379BB3 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6F042538290223C900379BB3 /* ViewController.swift */,
+				6F042539290223CA00379BB3 /* Assets.xcassets */,
+				6F042532290223C900379BB3 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		6F042532290223C900379BB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F042533290223C900379BB3 /* Main.html */,
+				6F042535290223C900379BB3 /* Icon.png */,
+				6F042536290223C900379BB3 /* Style.css */,
+				6F042537290223C900379BB3 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F04253A290223CA00379BB3 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6F04253B290223CA00379BB3 /* SafariWebExtensionHandler.swift */,
+				6F04253C290223CA00379BB3 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		6F04253C290223CA00379BB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F04253D290223CA00379BB3 /* _locales */,
+				6F04253E290223CA00379BB3 /* images */,
+				6F04253F290223CA00379BB3 /* manifest.json */,
+				6F042540290223CA00379BB3 /* background.js */,
+				6F042541290223CA00379BB3 /* content.js */,
+				6F042542290223CA00379BB3 /* popup.html */,
+				6F042543290223CA00379BB3 /* popup.css */,
+				6F042544290223CA00379BB3 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F04254A290223CA00379BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F042549290223CA00379BB3 /* Bookshelf-Extension.app */,
+				6F04255B290223CA00379BB3 /* Bookshelf-Extension.app */,
+				6F042567290223CA00379BB3 /* Bookshelf-Extension Extension.appex */,
+				6F042571290223CA00379BB3 /* Bookshelf-Extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F04254B290223CA00379BB3 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6F04254C290223CA00379BB3 /* AppDelegate.swift */,
+				6F04254E290223CA00379BB3 /* SceneDelegate.swift */,
+				6F042550290223CA00379BB3 /* LaunchScreen.storyboard */,
+				6F042553290223CA00379BB3 /* Main.storyboard */,
+				6F042556290223CA00379BB3 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		6F04255C290223CA00379BB3 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6F04255D290223CA00379BB3 /* AppDelegate.swift */,
+				6F04255F290223CA00379BB3 /* Main.storyboard */,
+				6F042562290223CA00379BB3 /* Bookshelf-Extension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		6F04256B290223CA00379BB3 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6F04256C290223CA00379BB3 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		6F042575290223CA00379BB3 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6F042576290223CA00379BB3 /* Info.plist */,
+				6F042577290223CA00379BB3 /* Bookshelf-Extension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F042548290223CA00379BB3 /* Bookshelf-Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F04259C290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension (iOS)" */;
+			buildPhases = (
+				6F042545290223CA00379BB3 /* Sources */,
+				6F042546290223CA00379BB3 /* Frameworks */,
+				6F042547290223CA00379BB3 /* Resources */,
+				6F04259B290223CA00379BB3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F04256A290223CA00379BB3 /* PBXTargetDependency */,
+			);
+			name = "Bookshelf-Extension (iOS)";
+			productName = "Bookshelf-Extension (iOS)";
+			productReference = 6F042549290223CA00379BB3 /* Bookshelf-Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F04255A290223CA00379BB3 /* Bookshelf-Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0425A3290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension (macOS)" */;
+			buildPhases = (
+				6F042557290223CA00379BB3 /* Sources */,
+				6F042558290223CA00379BB3 /* Frameworks */,
+				6F042559290223CA00379BB3 /* Resources */,
+				6F0425A2290223CA00379BB3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F042574290223CA00379BB3 /* PBXTargetDependency */,
+			);
+			name = "Bookshelf-Extension (macOS)";
+			productName = "Bookshelf-Extension (macOS)";
+			productReference = 6F04255B290223CA00379BB3 /* Bookshelf-Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F042566290223CA00379BB3 /* Bookshelf-Extension Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F042598290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension Extension (iOS)" */;
+			buildPhases = (
+				6F042563290223CA00379BB3 /* Sources */,
+				6F042564290223CA00379BB3 /* Frameworks */,
+				6F042565290223CA00379BB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bookshelf-Extension Extension (iOS)";
+			productName = "Bookshelf-Extension Extension (iOS)";
+			productReference = 6F042567290223CA00379BB3 /* Bookshelf-Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6F042570290223CA00379BB3 /* Bookshelf-Extension Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F04259F290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension Extension (macOS)" */;
+			buildPhases = (
+				6F04256D290223CA00379BB3 /* Sources */,
+				6F04256E290223CA00379BB3 /* Frameworks */,
+				6F04256F290223CA00379BB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bookshelf-Extension Extension (macOS)";
+			productName = "Bookshelf-Extension Extension (macOS)";
+			productReference = 6F042571290223CA00379BB3 /* Bookshelf-Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F04252D290223C900379BB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6F042548290223CA00379BB3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6F04255A290223CA00379BB3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6F042566290223CA00379BB3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6F042570290223CA00379BB3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F042530290223C900379BB3 /* Build configuration list for PBXProject "Bookshelf-Extension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F04252C290223C900379BB3;
+			productRefGroup = 6F04254A290223CA00379BB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F042548290223CA00379BB3 /* Bookshelf-Extension (iOS) */,
+				6F04255A290223CA00379BB3 /* Bookshelf-Extension (macOS) */,
+				6F042566290223CA00379BB3 /* Bookshelf-Extension Extension (iOS) */,
+				6F042570290223CA00379BB3 /* Bookshelf-Extension Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F042547290223CA00379BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F04257A290223CA00379BB3 /* Icon.png in Resources */,
+				6F042552290223CA00379BB3 /* LaunchScreen.storyboard in Resources */,
+				6F042578290223CA00379BB3 /* Main.html in Resources */,
+				6F04257E290223CA00379BB3 /* Script.js in Resources */,
+				6F042582290223CA00379BB3 /* Assets.xcassets in Resources */,
+				6F042555290223CA00379BB3 /* Main.storyboard in Resources */,
+				6F04257C290223CA00379BB3 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F042559290223CA00379BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F04257B290223CA00379BB3 /* Icon.png in Resources */,
+				6F04257D290223CA00379BB3 /* Style.css in Resources */,
+				6F042561290223CA00379BB3 /* Main.storyboard in Resources */,
+				6F04257F290223CA00379BB3 /* Script.js in Resources */,
+				6F042583290223CA00379BB3 /* Assets.xcassets in Resources */,
+				6F042579290223CA00379BB3 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F042565290223CA00379BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F04258C290223CA00379BB3 /* background.js in Resources */,
+				6F042592290223CA00379BB3 /* popup.css in Resources */,
+				6F042590290223CA00379BB3 /* popup.html in Resources */,
+				6F042588290223CA00379BB3 /* images in Resources */,
+				6F04258A290223CA00379BB3 /* manifest.json in Resources */,
+				6F042586290223CA00379BB3 /* _locales in Resources */,
+				6F04258E290223CA00379BB3 /* content.js in Resources */,
+				6F042594290223CA00379BB3 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F04256F290223CA00379BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F04258D290223CA00379BB3 /* background.js in Resources */,
+				6F042593290223CA00379BB3 /* popup.css in Resources */,
+				6F042591290223CA00379BB3 /* popup.html in Resources */,
+				6F042589290223CA00379BB3 /* images in Resources */,
+				6F04258B290223CA00379BB3 /* manifest.json in Resources */,
+				6F042587290223CA00379BB3 /* _locales in Resources */,
+				6F04258F290223CA00379BB3 /* content.js in Resources */,
+				6F042595290223CA00379BB3 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F042545290223CA00379BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F042580290223CA00379BB3 /* ViewController.swift in Sources */,
+				6F04254D290223CA00379BB3 /* AppDelegate.swift in Sources */,
+				6F04254F290223CA00379BB3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F042557290223CA00379BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F042581290223CA00379BB3 /* ViewController.swift in Sources */,
+				6F04255E290223CA00379BB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F042563290223CA00379BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F042584290223CA00379BB3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F04256D290223CA00379BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F042585290223CA00379BB3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F04256A290223CA00379BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F042566290223CA00379BB3 /* Bookshelf-Extension Extension (iOS) */;
+			targetProxy = 6F042569290223CA00379BB3 /* PBXContainerItemProxy */;
+		};
+		6F042574290223CA00379BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F042570290223CA00379BB3 /* Bookshelf-Extension Extension (macOS) */;
+			targetProxy = 6F042573290223CA00379BB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F042533290223C900379BB3 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F042534290223C900379BB3 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6F042550290223CA00379BB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F042551290223CA00379BB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F042553290223CA00379BB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F042554290223CA00379BB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F04255F290223CA00379BB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F042560290223CA00379BB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F042596290223CA00379BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F042597290223CA00379BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6F042599290223CA00379BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension.Extension";
+				PRODUCT_NAME = "Bookshelf-Extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F04259A290223CA00379BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension.Extension";
+				PRODUCT_NAME = "Bookshelf-Extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F04259D290223CA00379BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension";
+				PRODUCT_NAME = "Bookshelf-Extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F04259E290223CA00379BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension";
+				PRODUCT_NAME = "Bookshelf-Extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0425A0290223CA00379BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Bookshelf-Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension.Extension";
+				PRODUCT_NAME = "Bookshelf-Extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6F0425A1290223CA00379BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Bookshelf-Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension.Extension";
+				PRODUCT_NAME = "Bookshelf-Extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6F0425A4290223CA00379BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Bookshelf-Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension";
+				PRODUCT_NAME = "Bookshelf-Extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6F0425A5290223CA00379BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Bookshelf-Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RYVEV4LH7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bookshelf-Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurashige.bookshelf-extension.Bookshelf-Extension";
+				PRODUCT_NAME = "Bookshelf-Extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F042530290223C900379BB3 /* Build configuration list for PBXProject "Bookshelf-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F042596290223CA00379BB3 /* Debug */,
+				6F042597290223CA00379BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F042598290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F042599290223CA00379BB3 /* Debug */,
+				6F04259A290223CA00379BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F04259C290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F04259D290223CA00379BB3 /* Debug */,
+				6F04259E290223CA00379BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F04259F290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0425A0290223CA00379BB3 /* Debug */,
+				6F0425A1290223CA00379BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0425A3290223CA00379BB3 /* Build configuration list for PBXNativeTarget "Bookshelf-Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0425A4290223CA00379BB3 /* Debug */,
+				6F0425A5290223CA00379BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F04252D290223C900379BB3 /* Project object */;
+}
