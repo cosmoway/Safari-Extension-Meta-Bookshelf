@@ -1,4 +1,4 @@
-# Safari-xtension-Meta-Bookshelf
+# Safari-Extension-Meta-Bookshelf
 bookmarkのSafari Extensionのサンプル
 
 以下を使用
