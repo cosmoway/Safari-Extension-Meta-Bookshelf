@@ -2,7 +2,7 @@
 bookmarkのSafari Extensionのサンプル
 
 以下を使用
-Safari-xtension-Meta-Bookshelf/Shared (Extension)/Resources/
+Safari-Extension-Meta-Bookshelf/Shared (Extension)/Resources/
 manifest.json
 popup.js
  Bookshelfを追加
